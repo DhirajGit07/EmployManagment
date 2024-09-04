@@ -1,216 +1,97 @@
-/* 
-.logimg {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-  transition: transform 0.3s ease-in-out;
-}
 
-.logimg:hover {
-  transform: scale(1.05);
-}
+/* *********Login Start******** */
 
-.LoginformBg {
-  background-color: #139ECA;
-  position: relative;
-}
 
-.loginForm {
-  color: white;
-}
+/* Update the existing CSS for specific button classes */
 
-.form-control {
-  border-radius: 10px !important;
-  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.form-control:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-.btn_sing {
-  background-color: #D2526B;
-  border-radius: 15px !important;
-  color: white;
-  padding: 8px;
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.btn_sing:hover {
-  background-color: #C84161;
-  transform: scale(1.05);
-}
-
-.input-icon {
-  position: relative;
-}
-
-.input-icon i {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #aaa;
-}
-
-.input-icon input {
-  padding-left: 35px; 
-}
-
-.loginForm h2 {
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.usericons {
-  border-radius: 50%;
-  border: 2px solid white;
-  height: 80px;
-  width: 80px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
-  position: relative;
+.loginStart {
+  background-color: #f8f9fad2 !important; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 600px;
   margin: 0 auto;
-  top: 0px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.usericons:hover {
-  transform: rotate(360deg);
-}
-
-@media screen and (max-width: 767px) {
-  .usericons {
-    display: block;
-    padding: 0px 20px;
-    font-size: 40px;
-  }
-
-  .loginForm {
-    color: white;
-    margin: 100px 0px;
-  }
-}
-
-.decoration {
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease-in-out;
-}
-
-.decoration:hover {
-  color: #007bff;
-}
-
-.center-text {
   text-align: center;
 }
 
-.adminformBg {
-  background-color: #B17AEF;
+
+.logo-start {
+  border-radius: 30%;
+  max-width: 11%; 
+  height: auto; 
+  display: block; 
+  margin: 5px auto;
+  margin-top: 0% !important; 
 }
 
-.btn1 {
-  background-color: #FC76B0;
-  border-radius: 15px !important;
-  color: white;
-  height: auto;
-  padding: 10px;
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+.loginPageS {
+  background-image: url(../assets/bg-card1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.btn1:hover {
-  background-color: #F9609B;
-  transform: scale(1.05);
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.heading-margin {
-  margin-top: 4rem;
-  padding-left: 17px;
-  font-weight: bolder;
-}
-
-.bg-dark {
-  background-color: #343a40 !important;
-}
-
-.nav-link {
-  display: flex;
-  align-items: center;
-  padding: 10px 15px;
-  color: white;
+p {
+  color: #1a1919;
   font-size: 1.1rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
-.nav-link:hover {
-  background-color: #495057;
-  color: #ffc107;
+.adminLoginButton,
+.employeeLoginButton {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
 }
 
-.nav-pills .nav-link {
-  border-radius: 0;
+.adminLoginButton {
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
-.heading-margin {
-  margin-top: 2rem;
-  padding-left: 17px;
-  font-weight: bolder;
-  font-size: 1.5rem;
+.employeeLoginButton {
+  background-color: #018a21;
+  border-color: #28a745;
 }
 
-.nav-link i {
-  margin-right: 10px;
-  transition: transform 0.3s ease;
+.adminLoginButton:hover {
+  background-color: #1961ae;
 }
 
-.nav-link:hover i {
-  transform: scale(1.1);
+.employeeLoginButton:hover {
+  background-color: #1db03f;
 }
 
-.nav-link.active {
-  background-color: #495057;
-  color: #ffc107;
+.adminLoginButton svg,
+.employeeLoginButton svg {
+  font-size: 1.3rem;
 }
 
-.min-vh-100 {
-  min-height: 100vh;
-}
-
-@media (max-width: 767px) {
-  .nav-link {
-    font-size: 1rem;
-  }
-}
-.input-iconAdd input {
-  padding-left: 35px; 
-}
-.input-iconAdd {
- position: relative;
- 
-} */
 
 
-
+/* ****************end******************* */
 
 
 
 /* Add transitions to the login image */
+
 .logimg {
   max-width: 100%;
   height: auto;
   display: block;
   margin: auto;
-  transition: transform 0.3s ease-in-out;
-}
 
-.logimg:hover {
-  transform: scale(1.05);
 }
 
 .LoginformBg {
@@ -258,21 +139,22 @@
 }
 
 .input-icon input {
-  padding-left: 30px; /* Adjust this value to avoid text overlap with the icon */
+  padding-left: 30px; 
 }
 
 
 .btn_sing {
-  background-color: #D2526B;
+  background-color: #1c083b;
   border-radius: 15px !important;
+  border: none;
   color: white;
   padding: 8px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .btn_sing:hover {
-  background-color: #C84161;
-  transform: scale(1.05);
+  background-color: #3a0b50;
+  transform: scale(1.01);
 }
 
 .input-icon {
@@ -288,7 +170,7 @@
 }
 
 .input-icon input {
-  padding-left: 35px; /* Adjust based on icon size */
+  padding-left: 35px; 
 }
 
 .loginForm h2 {
@@ -344,12 +226,13 @@
 }
 
 .adminformBg {
-  background-color: #B17AEF;
+  background-color: #346aff;
 }
 
 .btn1 {
-  background-color: #FC76B0;
+  background-color: #261935;
   border-radius: 15px !important;
+  border: none;
   color: white;
   height: auto;
   padding: 10px;
@@ -357,8 +240,8 @@
 }
 
 .btn1:hover {
-  background-color: #F9609B;
-  transform: scale(1.05);
+  background-color: #321263;
+  transform: scale(1.01);
 }
 
 .heading-margin {
@@ -367,23 +250,37 @@
   font-weight: bolder;
 }
 
-/* Navbar styles */
-.bg-dark {
-  background-color: #343a40 !important;
-}
 
+
+/************** Navbar styles ***************/
+.bg-dark {
+  background-color: #3077be !important;
+}
+.col-auto{
+  background-color: #8074f9;
+}
 .nav-link {
   display: flex;
   align-items: center;
   padding: 10px 15px;
   color: white;
   font-size: 1.1rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease ;
 }
 
 .nav-link:hover {
-  background-color: #495057;
+  background-color:rgb(155, 187, 225);
   color: #ffc107;
+  
+}
+
+.btn-navup{
+  font-size: x-large;
+  font-weight: bolder;
+}
+.btn-navup:hover {
+  font-weight:bold;
+  color: #3077be; 
 }
 
 .nav-pills .nav-link {
@@ -392,11 +289,15 @@
 
 .heading-margin {
   margin-top: 2rem;
-  padding-left: 17px;
+  padding-left: 20px;
   font-weight: bolder;
   font-size: 1.5rem;
 }
-
+.w-1008{
+  margin-top: 300px;
+  justify-content: center;
+  text-align: center;
+}
 /* Add transitions to icons */
 .nav-link i {
   margin-right: 10px;
@@ -407,7 +308,7 @@
   transform: scale(1.1);
 }
 
-/* Active link style */
+/********** Active link style ***********/
 .nav-link.active {
   background-color: #495057;
   color: #ffc107;
@@ -423,14 +324,14 @@
   }
 }
 
-/* Registration form styles */
+/*************** Registration form styles *****************/
 .registration-form {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.226);
+  box-shadow: 0 0 15px rgba(45, 98, 204, 0.226);
   max-width: 600px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .registration-form .form-control {
@@ -439,7 +340,7 @@
 
 .registration-form .form-control:focus {
   border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 .registration-form .btn {
@@ -467,4 +368,336 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 1.5rem;
 
+}
+/* image css */
+/************ Styles for the dropzone ************/
+.dropzone {
+  border: 2px dashed #007bff;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  justify-content: center;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.dropzone:hover {
+  background-color: #f8f9fa;
+}
+
+.preview-container {
+  text-align: center;
+  margin-top: 10px;
+  padding: 2px;
+}
+.preview-btn{
+  width: 26% !important;
+  margin-left: 5px;
+}
+.image-preview {
+  max-width: 100%;
+  max-height: 200px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+
+
+
+/* *********Employee Home Card************ */
+.card {
+  background-image: url('../assets/bg-card2.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%; 
+  color: rgb(3, 3, 3); 
+}
+.card:hover {
+  transform: scale(1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+} 
+.card-T {
+  background-size: cover;
+  background-position: center;
+  height: 90%; 
+  color: rgb(3, 3, 3); 
+}
+
+.hover-effect {
+  cursor: pointer;
+}
+ 
+/* Add this to your style.css file */
+.dashboard {
+  background-color: rgb(205, 204, 229);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.empdashboard{
+  background-color: #580fb8;
+  }
+
+.logo {
+  width: 50px; 
+  height: auto;
+  border-radius: 50%;
+}
+
+/* ****Employe TAble wich In Category Component******* */
+.table tr{
+  text-align: center;
+}
+
+.table:hover{
+  transform: scale(1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+/************** admin aprrovel section  ******************/
+.btn-view{
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 80px;
+  background-color: #0056b3;
+  color:white;
+}
+.logout-btn{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+
+/*********** Profile Page CSS ****************/
+.profile-container {
+  display: flex;
+  justify-content: center;
+ 
+  height: auto;
+  background-color: #f4f6f9;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.profile-header {
+  background-color: #5596dc;
+  padding-top: 15px;
+  color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.profile-image-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-role {
+  font-size: 14px;
+  color: #f0f0f0;
+  margin-top: 5px;
+}
+
+.profile-body {
+  padding: 20px;
+}
+
+.profile-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.profile-info-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.profile-description {
+  font-size: 14px;
+  color: #3b3b3b;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+/* Style.css For Aprovel Section on Employee side*/
+.approve-history-container {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 60px !important;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search-input {
+  padding: 12px;
+  font-size: 16px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1119f8;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #092e95;
+}
+
+.data-box {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.data-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 400px; 
+  margin: 10px; 
+  
+}
+
+.data-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.card-header p {
+  margin: 5px 0 0;
+  color: #e30a0a;
+  font-weight: bold;
+}
+
+.card-body p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.error-message, .no-data-message {
+  text-align: center;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loading-message {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #272525;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 5px solid #ddd;
+  border-top: 5px solid #28a745;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
