@@ -7,7 +7,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import userImage from '../assets/AdminProfile.png';
 
 const Profile = ({ user }) => {
-  const { name = 'Dhiraj Hatwar', email = 'dhiraj2000hatwar@gmail.com', mobile = '8600770710', address = 'Darshana Society Koradi Naka, Nagpur'} = user || {};
+  const { name = 'Dhiraj Hatwar', email = 'dhiraj2000hatwar@gmail.com', mobile = '+91 8600770710', address = 'Darshana Society Koradi Naka, Nagpur'} = user || {};
 
   return (
     <div className="profile-container">
