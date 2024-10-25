@@ -12,7 +12,7 @@ import Employeedb from './Components/Employeedb';
 import AddCategory from './Components/AddCategory';
 import Start from './Components/Start';
 import GetLeave from './Components/GetLeave';
-import Approve_History from './Components/Approve_History';
+import ApproveHistory from './Components/ApproveHistory';
 import EmpHome from './Components/EmpHome';
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route path="/employeelogin" element={<Login />} />
         <Route path="/employeedb" element={<Employeedb />}>
           <Route path="get_leave" element={<GetLeave />} />
-          <Route path="ApproveHistory" element={<Approve_History />} />
+          <Route path="ApproveHistory" element={<ApproveHistory />} />
           <Route index element={<EmpHome />} />
         </Route>
 
